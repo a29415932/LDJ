@@ -1,0 +1,18 @@
+{
+    "db": {
+        "database": "test",
+        "user": "postgres",
+        "password": "asAS123",
+        "host": "127.0.0.1",
+        "port": "5432"
+    },
+    "target_tables": [{
+        "table_name": "public.user",
+        "clear_columns": ["password", "gender"],
+        "method": "No Primary"
+    }, {
+        "table_name": "public.test",
+        "clear_columns": ["password", "gender"],
+        "method": "No Primary"
+    }]
+}

@@ -1,0 +1,93 @@
+{
+  "db": 
+  {
+      "database": "test",
+      "user": "postgres",
+      "password": "asAS123",
+      "host": "127.0.0.1",
+      "port": "5432"
+  },
+  "target_tables": 
+  {
+      "table_name": "user",
+      "method":"No Primary",
+      "clearColumn": 
+      [
+        {
+          "name": "a",
+          "password": "123",
+          "gender": "male",
+          "height": 145,
+          "weight": 40
+        }, 
+        {
+          "name": "b",
+          "password": "1234",
+          "gender": "male",
+          "height": 160,
+          "weight": 58
+        }, 
+        {
+          "name": "c",
+          "password": "12345",
+          "gender": "female",
+          "height": 170,
+          "weight": 60
+        }, 
+        {
+          "name": "d",
+          "password": "1234456",
+          "gender": "female",
+          "height": 176,
+          "weight": 58
+        }, 
+        {
+          "name": "e",
+          "password": "1234567",
+          "gender": "male",
+          "height": 168,
+          "weight": 60
+        }, 
+        {
+          "name": "f",
+          "password": "1234",
+          "gender": "female",
+          "height": 164,
+          "weight": 52
+        }
+        , 
+        {
+          "name": "g",
+          "password": "123421",
+          "gender": "male",
+          "height": 183,
+          "weight": 68
+        }, 
+        {
+          "name": "h",
+          "password": "1234123",
+          "gender": "female",
+          "height": 167,
+          "weight": 54
+        }, 
+        {
+          "name": "i",
+          "password": "1234123",
+          "gender": "male",
+          "height": 184,
+          "weight": 72
+        }, 
+        {
+          "name": "j",
+          "password": "1234231",
+          "gender": "female",
+          "height": 158,
+          "weight": 45
+        }
+
+      ]
+  }
+}
+
+
+    
